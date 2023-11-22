@@ -41,15 +41,10 @@ public class AuthController {
     @PostMapping("/signin")
     public User authenticateUser(@RequestBody LoginDto loginDto) {
         Optional<User> userOpt = userRepository.findByUsernameAndPassword(loginDto.getUsernameOrEmail(), loginDto.getPassword());
-        if(userOpt.isEmpty()) throw new ResponseStatusException(HttpStatus.NOT_FOUND, "Invalid username or email");
+        if (userOpt.isEmpty()) throw new ResponseStatusException(HttpStatus.NOT_FOUND, "Invalid username or email");
         return userOpt.get();
 
 
-//        Authentication authentication = authenticationManager.authenticate(new UsernamePasswordAuthenticationToken(
-//                loginDto.getUsernameOrEmail(), loginDto.getPassword()));
-//
-//        SecurityContextHolder.getContext().setAuthentication(authentication);
-//        return new ResponseEntity<>("User signed-in successfully!.", HttpStatus.OK);
     }
 
     @PostMapping("/signup")
@@ -71,8 +66,6 @@ public class AuthController {
         user.setEmail(registerDto.getEmail());
         user.setPassword(registerDto.getPassword());
 
-//        Role roles = roleRepository.findByName("ROLE_ADMIN").get();
-//        user.setRoles(Collections.singleton(roles));
 
         userRepository.save(user);
 
