@@ -1,6 +1,6 @@
 # Recipe Book Application 
 
-<!-- ![th](https://github.com/amalg20/java-project1-github-repo-sda/assets/145042005/e872eff3-0d45-4c16-86a4-b157de0ab2ab) -->
+![recipe 1](https://github.com/amalg20/Final-Java-Angular-9w-GitHub-repo2/assets/145042005/8b732eb6-3785-46b7-b1a5-0f49482fb822)
 
 
 
@@ -13,12 +13,23 @@ Recipes can also be tagged with categories for easy filtering.
 Users can view a list of all their recipes, search for specific ones, and open up individual recipes to see the details. Recipes can be edited or deleted as needed.
 
 
+## 2. Extra links : 
+
+#### A. Slide Link
+https://prezi.com/p/edit/uuwumx1g50nm/
+
+#### B. Frontend Link
+https://github.com/amalg20/Final-Java-Angular-9w-GitHub-repo1.git
+
+
 ## 2. Class Diagram:
 
-<!-- ![RestaurantManagementSystem](https://github.com/amalg20/java-project1-github-repo-sda/assets/145042005/c8361a5f-a66c-40b3-90ba-6cc065f51cd4) -->
+![class-diagram](https://github.com/amalg20/Final-Java-Angular-9w-GitHub-repo2/assets/145042005/8a788c5d-a57a-49cc-8476-d5434e22cfb0)
+
 
 ## 3. Use case Diagram:
 
+![use case](https://github.com/amalg20/Final-Java-Angular-9w-GitHub-repo2/assets/145042005/d3c16788-f4aa-4cc9-ac14-4d314006d1fb)
 
 ## 4. Setup:
 
@@ -86,17 +97,12 @@ First, create Recipe, User, and other model classes. Then, configure Spring Data
 Also, authenticate users with Spring Security. The, write service layer methods for business logic.
 However, add input validation annotations on models. Last, write unit and integration tests using JUnit.
 
-
-## 9. Extra links : 
-
-https://prezi.com/p/edit/uuwumx1g50nm/
-
-## 10. Future Work:
+## 9. Future Work:
 
 1. I will connect to the Frontend and Dispaly the app.
 2. I will add the Admin for the app.
 
-## 11. Resources:
+## 10. Resources:
 
 1. https://play.google.com/store/apps/details?id=com.desertstorm.recipebook
 
