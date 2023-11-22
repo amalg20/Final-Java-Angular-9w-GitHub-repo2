@@ -15,7 +15,8 @@ Users can view a list of all their recipes, search for specific ones, and open u
 
 ## 2. Class Diagram:
 
-<!-- ![RestaurantManagementSystem](https://github.com/amalg20/java-project1-github-repo-sda/assets/145042005/c8361a5f-a66c-40b3-90ba-6cc065f51cd4) -->
+![class-diagram](https://github.com/amalg20/Final-Java-Angular-9w-GitHub-repo2/assets/145042005/8a788c5d-a57a-49cc-8476-d5434e22cfb0)
+
 
 ## 3. Use case Diagram:
 
