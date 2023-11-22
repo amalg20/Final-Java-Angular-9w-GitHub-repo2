@@ -13,6 +13,14 @@ Recipes can also be tagged with categories for easy filtering.
 Users can view a list of all their recipes, search for specific ones, and open up individual recipes to see the details. Recipes can be edited or deleted as needed.
 
 
+## 2. Extra links : 
+
+#### A. Slide Link
+https://prezi.com/p/edit/uuwumx1g50nm/
+
+#### B. Frontend Link
+
+
 ## 2. Class Diagram:
 
 ![class-diagram](https://github.com/amalg20/Final-Java-Angular-9w-GitHub-repo2/assets/145042005/8a788c5d-a57a-49cc-8476-d5434e22cfb0)
@@ -20,6 +28,7 @@ Users can view a list of all their recipes, search for specific ones, and open u
 
 ## 3. Use case Diagram:
 
+![use case](https://github.com/amalg20/Final-Java-Angular-9w-GitHub-repo2/assets/145042005/d3c16788-f4aa-4cc9-ac14-4d314006d1fb)
 
 ## 4. Setup:
 
@@ -86,11 +95,6 @@ B. /api/auth/signup : To Signup
 First, create Recipe, User, and other model classes. Then, configure Spring Data JPA to interact with database. Most build REST controllers for CRUD operations on recipes.
 Also, authenticate users with Spring Security. The, write service layer methods for business logic.
 However, add input validation annotations on models. Last, write unit and integration tests using JUnit.
-
-
-## 9. Extra links : 
-
-https://prezi.com/p/edit/uuwumx1g50nm/
 
 ## 10. Future Work:
 
