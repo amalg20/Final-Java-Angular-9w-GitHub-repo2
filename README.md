@@ -19,6 +19,7 @@ Users can view a list of all their recipes, search for specific ones, and open u
 https://prezi.com/p/edit/uuwumx1g50nm/
 
 #### B. Frontend Link
+https://github.com/amalg20/Final-Java-Angular-9w-GitHub-repo1.git
 
 
 ## 2. Class Diagram:
@@ -96,12 +97,12 @@ First, create Recipe, User, and other model classes. Then, configure Spring Data
 Also, authenticate users with Spring Security. The, write service layer methods for business logic.
 However, add input validation annotations on models. Last, write unit and integration tests using JUnit.
 
-## 10. Future Work:
+## 9. Future Work:
 
 1. I will connect to the Frontend and Dispaly the app.
 2. I will add the Admin for the app.
 
-## 11. Resources:
+## 10. Resources:
 
 1. https://play.google.com/store/apps/details?id=com.desertstorm.recipebook
 
